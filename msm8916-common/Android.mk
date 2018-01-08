@@ -17,7 +17,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter lux merlin osprey surnia,$(TARGET_DEVICE)),)
+ifneq ($(filter harpia lux merlin osprey surnia,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libHevcSwDecoder
