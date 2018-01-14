@@ -148,6 +148,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libfacenet-32.so:system/vendor/lib/libfacenet-32.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
