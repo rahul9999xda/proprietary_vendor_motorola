@@ -17,14 +17,8 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/motorola/msm8916-common/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/motorola/msm8916-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/msm8916-common/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
-    vendor/motorola/msm8916-common/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/motorola/msm8916-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/msm8916-common/proprietary/bin/radish:system/bin/radish \
-    vendor/motorola/msm8916-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/motorola/msm8916-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/motorola/msm8916-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/motorola/msm8916-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/motorola/msm8916-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
@@ -61,7 +55,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/msm8916-common/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libprotobuf-cpp-haxx.so:system/vendor/lib/libprotobuf-cpp-haxx.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
+    vendor/motorola/msm8916-common/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/motorola/msm8916-common/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
+    vendor/motorola/msm8916-common/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
+    vendor/motorola/msm8916-common/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/motorola/msm8916-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/motorola/msm8916-common/proprietary/bin/imscmservice:system/vendor/bin/imscmservice \
     vendor/motorola/msm8916-common/proprietary/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
     vendor/motorola/msm8916-common/proprietary/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
